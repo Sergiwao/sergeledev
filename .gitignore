@@ -1,0 +1,6 @@
+# Ignore experimental/legacy subdirectories and caches
+portfolio/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serge Landry WAONGO | Développeur Front-End & Full-Stack</title>
+  <meta name="description" content="Portfolio de Serge Landry WAONGO, étudiant ingénieur logiciel à l'UTM, formé en full-stack (Orange Digital Center - ODC) et lauréat du 1er Prix au Hackathon Merradis 2026.">
+  
+  <!-- Favicon Néo-Brutaliste -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  
+  <!-- Fonts: Archivo (Headings) & Space Grotesk (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-paper text-ink antialiased">
+
+  <!-- HEADER NAVBAR -->
+  <header class="navbar-container">
+    <div class="nav-wrapper">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-badge">SW</span>
+        <span class="logo-ext">.dev</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#a-propos" class="nav-link">À propos</a>
+        <a href="#competences" class="nav-link">Compétences</a>
+        <a href="#parcours" class="nav-link">Parcours</a>
+        <a href="#projets" class="nav-link">Projets</a>
+        <a href="https://github.com/Sergiwao" target="_blank" rel="noopener" class="nav-link nav-external">GitHub</a>
+        <a href="https://www.linkedin.com/in/serge-landry-waongo-2602a9360" target="_blank" rel="noopener" class="nav-link nav-external">LinkedIn</a>
+        <a href="#contact" class="btn-neo btn-coral btn-contact">Contact</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Menu Mobile">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section scroll-reveal">
+      <div class="hero-grid">
+        <div class="hero-text-block">
+          <span class="status-pill shadow-pop-sm">
+            <span class="status-dot"></span> Étudiant Ingénieur Logiciel & Full-Stack
+          </span>
+
+          <h1 class="hero-title" id="heroName">
+            Serge Landry<br>WAONGO
+          </h1>
+
+          <p class="hero-desc">
+            Développeur orienté front-end, formé en architecture full-stack et lauréat du <strong>1er Prix du Hackathon Merradis 2026</strong>. Je transforme des problématiques complexes en interfaces utilisateur soignées, performantes et intuitives.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projets" class="btn-neo btn-black shadow-coral-pop">Voir mes projets</a>
+            <a href="https://github.com/Sergiwao" target="_blank" rel="noopener" class="btn-neo btn-white shadow-pop">GitHub</a>
+            <a href="https://www.linkedin.com/in/serge-landry-waongo-2602a9360" target="_blank" rel="noopener" class="btn-neo btn-coral shadow-pop">LinkedIn</a>
+          </div>
+
+          <div class="hero-tags">
+            <span class="tag-pill tag-teal">Angular</span>
+            <span class="tag-pill tag-grape">Spring Boot</span>
+            <span class="tag-pill tag-sun text-ink">React</span>
+            <span class="tag-pill tag-coral">PWA & Mobile</span>
+            <span class="tag-pill tag-ink text-paper">TypeScript</span>
+          </div>
+        </div>
+
+        <!-- HERO TILTED PHOTO CARD -->
+        <div class="hero-card-wrapper">
+          <div class="tilt-card-bg"></div>
+          <div class="tilt-card-main shadow-pop">
+            <div class="photo-container-box">
+              <img id="profilePhoto" src="Pictures/Photo de profil/my portfolio pp.png" alt="Photo de profil de Serge Landry WAONGO" class="profile-img">
+            </div>
+          </div>
+          <div class="tilt-badge-coral shadow-pop-sm">Front-end First</div>
+          <div class="tilt-badge-winner shadow-pop-sm">1er Prix Hackathon 2026</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION A PROPOS -->
+    <section id="a-propos" class="section-container scroll-reveal">
+      <div class="about-grid">
+        <h2 class="section-title">À propos</h2>
+        <div class="about-black-card shadow-sun-pop">
+          <p class="about-p-main">
+            Actuellement en 3<sup>e</sup> année d'ingénierie logicielle à l'<strong>UTM</strong> (Université de Technologies et de Management), j'ai suivi une formation intensive certifiante de quatre mois en développement full-stack auprès d'<strong>Orange Digital Center (ODC)</strong> : maîtrise d'<strong>Angular</strong> côté front et de <strong>Spring Boot</strong> côté back.
+          </p>
+          <p class="about-p-sub">
+            Passionné par l'alliance entre ergonomie visuelle (UI/UX) et rigueur logicielle, je conçois des applications complètes, résilientes et centrées sur l'utilisateur. Avec mon équipe <strong>LOGICODE</strong> (5 développeurs), nous avons remporté le <strong>1er Prix du Hackathon Merradis Burkina × UTM 2026</strong> en concevant un annuaire géolocalisé pour artisans.
+          </p>
+
+          <div class="about-stats-grid">
+            <div class="stat-card">
+              <div class="stat-number text-sun">3e</div>
+              <div class="stat-label">année d'ingé (UTM)</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number text-coral">1er Prix</div>
+              <div class="stat-label">Hackathon Merradis 2026</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number text-teal">Certifié</div>
+              <div class="stat-label">Full-Stack ODC</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number text-sun">90%</div>
+              <div class="stat-label">Affinité Front & UX</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION COMPETENCES (NEO GAUGES) -->
+    <section id="competences" class="section-container scroll-reveal">
+      <h2 class="section-title">Compétences</h2>
+      <div class="skills-grid">
+        
+        <!-- Front-end -->
+        <div class="skill-item scroll-reveal">
+          <div class="skill-label-row">
+            <span class="skill-name">Front-end (Angular, React, HTML5/CSS3)</span>
+            <span class="skill-badge badge-coral">90%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-bar bar-coral" style="width: 90%;"></div>
+          </div>
+        </div>
+
+        <!-- Back-end -->
+        <div class="skill-item scroll-reveal">
+          <div class="skill-label-row">
+            <span class="skill-name">Back-end (Spring Boot, Java, REST APIs)</span>
+            <span class="skill-badge badge-teal">70%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-bar bar-teal" style="width: 70%;"></div>
+          </div>
+        </div>
+
+        <!-- Angular -->
+        <div class="skill-item scroll-reveal">
+          <div class="skill-label-row">
+            <span class="skill-name">Angular & RxJS / Architecture Modulaire</span>
+            <span class="skill-badge badge-grape">85%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-bar bar-grape" style="width: 85%;"></div>
+          </div>
+        </div>
+
+        <!-- JavaScript / TypeScript -->
+        <div class="skill-item scroll-reveal">
+          <div class="skill-label-row">
+            <span class="skill-name">JavaScript & TypeScript Modernes</span>
+            <span class="skill-badge badge-sun">85%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-bar bar-sun" style="width: 85%;"></div>
+          </div>
+        </div>
+
+        <!-- PWA & Mobile First -->
+        <div class="skill-item scroll-reveal">
+          <div class="skill-label-row">
+            <span class="skill-name">PWA, Responsive & Mobile-First</span>
+            <span class="skill-badge badge-coral">90%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-bar bar-coral" style="width: 90%;"></div>
+          </div>
+        </div>
+
+        <!-- Bases de données & Outils -->
+        <div class="skill-item scroll-reveal">
+          <div class="skill-label-row">
+            <span class="skill-name">Bases de données & Git / Déploiement Cloud</span>
+            <span class="skill-badge badge-teal">75%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-bar bar-teal" style="width: 75%;"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION PARCOURS (TIMELINE) -->
+    <section id="parcours" class="section-container scroll-reveal">
+      <div class="section-header-row">
+        <h2 class="section-title">Parcours & Distinctions</h2>
+        <span class="tag-pill tag-sun text-ink shadow-pop-sm">Parcours Chronologique</span>
+      </div>
+
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+        <div class="timeline-items-list">
+          
+          <!-- Step 1: 3e annee UTM (2026-2027) -->
+          <div class="timeline-card-wrapper scroll-reveal">
+            <div class="timeline-node node-coral"></div>
+            <div class="neo-card shadow-pop">
+              <div class="timeline-head">
+                <span class="badge-year tag-coral">2026 – 2027</span>
+                <span class="badge-now">En cours</span>
+              </div>
+              <h3 class="timeline-card-title">3e année — Ingénierie logicielle</h3>
+              <p class="timeline-card-sub">UTM — Université de Technologies et de Management</p>
+              <p class="timeline-card-detail">Approfondissement des architectures logicielles distribuées, génie logiciel avancé, gestion de projets agiles et conception de systèmes d'information.</p>
+            </div>
+          </div>
+
+          <!-- Step 2: Formation ODC (Juin - Octobre 2026) -->
+          <div class="timeline-card-wrapper scroll-reveal">
+            <div class="timeline-node node-sun"></div>
+            <div class="neo-card shadow-pop highlight-card">
+              <div class="timeline-head">
+                <span class="badge-year tag-sun text-ink">Juin – Octobre 2026</span>
+                <span class="badge-special">Formation Certifiante Intensive</span>
+              </div>
+              <h3 class="timeline-card-title">Formation Développement Full-Stack</h3>
+              <p class="timeline-card-sub">Orange Digital Center (ODC)</p>
+              <p class="timeline-card-detail">Immersion pratique intensive : développement d'applications d'envergure avec Angular côté client, API REST sécurisées avec Spring Boot côté serveur, bases relationnelles et travail collaboratif en équipe agile.</p>
+              
+              <!-- Mini galerie ODC -->
+              <div class="timeline-media-preview">
+                <img src="Pictures/ODC/odc 1.jpeg" alt="Serge à Orange Digital Center" class="timeline-thumb" onclick="openGalleryViewer('odc', 0)">
+                <img src="Pictures/ODC/odc 2.jpeg" alt="Présentation à Orange Digital Center" class="timeline-thumb" onclick="openGalleryViewer('odc', 1)">
+                <img src="Pictures/ODC/odc 3.jpeg" alt="Session de code VS Code ODC" class="timeline-thumb" onclick="openGalleryViewer('odc', 2)">
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3: Hackathon Merradis (2026) -->
+          <div class="timeline-card-wrapper scroll-reveal">
+            <div class="timeline-node node-grape"></div>
+            <div class="neo-card shadow-pop highlight-card-trophy">
+              <div class="timeline-head">
+                <span class="badge-year tag-grape">2026</span>
+                <span class="badge-trophy">1er Prix — Lauréat Hackathon</span>
+              </div>
+              <h3 class="timeline-card-title">1er Prix — Hackathon Merradis Burkina × UTM</h3>
+              <p class="timeline-card-sub">Partenariat UTM & Merradis Group — Équipe LOGICODE (5 membres)</p>
+              <p class="timeline-card-detail">Conception et développement en équipe d'une solution innovante : un <strong>annuaire géolocalisé pour artisans</strong> permettant de relier facilement les citoyens aux professionnels de proximité et de stimuler l'économie locale.</p>
+              
+              <!-- Mini galerie Merradis -->
+              <div class="timeline-media-preview">
+                <img src="Pictures/Merradis Hackaton/Merradis 1.jpeg" alt="Remise du 1er Prix Équipe LOGICODE" class="timeline-thumb" onclick="openGalleryViewer('merradis', 0)">
+                <img src="Pictures/Merradis Hackaton/Merradis 2.jpeg" alt="Attestation de participation Serge Waongo" class="timeline-thumb" onclick="openGalleryViewer('merradis', 1)">
+                <img src="Pictures/Merradis Hackaton/Merradis 3.jpeg" alt="Jury Hackathon 2026" class="timeline-thumb" onclick="openGalleryViewer('merradis', 2)">
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 4: 2e annee UTM (2025-2026) -->
+          <div class="timeline-card-wrapper scroll-reveal">
+            <div class="timeline-node node-teal"></div>
+            <div class="neo-card shadow-pop">
+              <div class="timeline-head">
+                <span class="badge-year tag-teal">2025 – 2026</span>
+              </div>
+              <h3 class="timeline-card-title">2e année — Ingénierie logicielle</h3>
+              <p class="timeline-card-sub">UTM — Université de Technologies et de Management</p>
+              <p class="timeline-card-detail">Structures de données, programmation orientée objet avancée, algorithmique, modélisation UML et bases de données relationnelles.</p>
+            </div>
+          </div>
+
+          <!-- Step 5: 1re annee UTM (2024-2025) -->
+          <div class="timeline-card-wrapper scroll-reveal">
+            <div class="timeline-node node-sun"></div>
+            <div class="neo-card shadow-pop">
+              <div class="timeline-head">
+                <span class="badge-year tag-sun text-ink">2024 – 2025</span>
+              </div>
+              <h3 class="timeline-card-title">1re année — Ingénierie logicielle</h3>
+              <p class="timeline-card-sub">UTM — Université de Technologies et de Management</p>
+              <p class="timeline-card-detail">Fondamentaux des sciences informatiques, logique mathématique, initiation au développement web et langages de base.</p>
+            </div>
+          </div>
+
+          <!-- Step 6: Baccalauréat (2023-2024) -->
+          <div class="timeline-card-wrapper scroll-reveal">
+            <div class="timeline-node node-ink"></div>
+            <div class="neo-card shadow-pop">
+              <div class="timeline-head">
+                <span class="badge-year tag-ink">2023 – 2024</span>
+              </div>
+              <h3 class="timeline-card-title">Baccalauréat</h3>
+              <p class="timeline-card-sub">Obtention du baccalauréat avec mention</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION PROJETS -->
+    <section id="projets" class="section-container scroll-reveal">
+      <div class="section-header-row">
+        <div>
+          <h2 class="section-title">Projets Réalisés</h2>
+          <p class="section-subtitle">Cliquez sur un projet pour ouvrir la fiche détaillée avec mockups, architecture et liens de démonstration.</p>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        
+        <!-- PROJET 1 : LADIASS -->
+        <article class="project-card neo-card shadow-pop scroll-reveal" data-project-id="ladias">
+          <div class="project-thumb-box" onclick="openProjectModal('ladias')">
+            <img src="Pictures/Ladias/ladias_4_mac_mockup.png" alt="Mockup Ladias Dashboard" class="project-thumb-img">
+            <div class="project-thumb-overlay">
+              <span class="btn-neo btn-sun btn-sm">Ouvrir la fiche</span>
+            </div>
+          </div>
+          <div class="project-tags-row">
+            <span class="tag-pill tag-teal">Angular 21</span>
+            <span class="tag-pill tag-coral">PWA</span>
+            <span class="tag-pill tag-grape">Santé</span>
+          </div>
+          <h3 class="project-title" onclick="openProjectModal('ladias')">LADiASS — Plateforme Assurance Santé</h3>
+          <p class="project-desc">Plateforme web & PWA médicale multi-acteurs pour la gestion automatisée des prises en charge, factures et feuilles de soins entre cliniques et assurés.</p>
+          <div class="project-footer-btns">
+            <button class="btn-neo btn-black btn-sm" onclick="openProjectModal('ladias')">Détails & Galerie</button>
+            <a href="https://ladias.onrender.com/" target="_blank" rel="noopener" class="btn-neo btn-sun btn-sm">Démo Live</a>
+          </div>
+        </article>
+
+        <!-- PROJET 2 : AUDIFY -->
+        <article class="project-card neo-card shadow-pop scroll-reveal" data-project-id="audify">
+          <div class="project-thumb-box" onclick="openProjectModal('audify')">
+            <img src="Pictures/Audify/audify_dashboard.png" alt="Mockup Audify Dashboard" class="project-thumb-img">
+            <div class="project-thumb-overlay">
+              <span class="btn-neo btn-sun btn-sm">Ouvrir la fiche</span>
+            </div>
+          </div>
+          <div class="project-tags-row">
+            <span class="tag-pill tag-grape">Audit & Finance</span>
+            <span class="tag-pill tag-teal">SYSCOHADA</span>
+            <span class="tag-pill tag-sun text-ink">Desktop / Web</span>
+          </div>
+          <h3 class="project-title" onclick="openProjectModal('audify')">Audify — Solution d'Audit & Comptabilité</h3>
+          <p class="project-desc">Application d'audit moderne conforme aux normes OHADA / SYSCOHADA Révisé avec fonctionnement 100% hors-ligne natif et rapports automatisés.</p>
+          <div class="project-footer-btns">
+            <button class="btn-neo btn-black btn-sm" onclick="openProjectModal('audify')">Détails & Galerie</button>
+            <a href="https://audify-website.netlify.app/" target="_blank" rel="noopener" class="btn-neo btn-sun btn-sm">Démo Live</a>
+          </div>
+        </article>
+
+        <!-- PROJET 3 : UNDERCOVER MULTI-THEMES -->
+        <article class="project-card neo-card shadow-pop scroll-reveal" data-project-id="undercover">
+          <div class="project-thumb-box" onclick="openProjectModal('undercover')">
+            <img src="Pictures/Undercover/undercover_themes.png" alt="Mockup Undercover Game Themes" class="project-thumb-img project-thumb-contain">
+            <div class="project-thumb-overlay">
+              <span class="btn-neo btn-sun btn-sm">Ouvrir la fiche</span>
+            </div>
+          </div>
+          <div class="project-tags-row">
+            <span class="tag-pill tag-coral">Party Game</span>
+            <span class="tag-pill tag-sun text-ink">Multi-Thèmes</span>
+            <span class="tag-pill tag-ink text-paper">PWA Mobile</span>
+          </div>
+          <h3 class="project-title" onclick="openProjectModal('undercover')">Undercover — Jeu d'Infiltration Multi-Thèmes</h3>
+          <p class="project-desc">Jeu d'ambiance mobile captivant aux multiples univers (Soirée, Célébrités, Nourriture, Loisirs, Famille, Sport) : « Tout le monde a presque le même mot. Trouve qui bluffe. »</p>
+          <div class="project-footer-btns">
+            <button class="btn-neo btn-black btn-sm" onclick="openProjectModal('undercover')">Détails & Galerie</button>
+            <a href="https://football-undercover-game.netlify.app/" target="_blank" rel="noopener" class="btn-neo btn-sun btn-sm">Jouer en direct</a>
+          </div>
+        </article>
+
+        <!-- PROJET 4 : HACKATHON MERRADIS (LOGICODE) -->
+        <article class="project-card neo-card shadow-pop scroll-reveal" data-project-id="meradis">
+          <div class="project-thumb-box" onclick="openProjectModal('meradis')">
+            <img src="Pictures/Merradis Hackaton/Merradis 1.jpeg" alt="Hackathon Merradis 1er Prix" class="project-thumb-img">
+            <div class="project-thumb-overlay">
+              <span class="btn-neo btn-sun btn-sm">Ouvrir la fiche</span>
+            </div>
+          </div>
+          <div class="project-tags-row">
+            <span class="tag-pill tag-coral">1er Prix</span>
+            <span class="tag-pill tag-teal">Géolocalisation</span>
+            <span class="tag-pill tag-grape">LOGICODE</span>
+          </div>
+          <h3 class="project-title" onclick="openProjectModal('meradis')">Annuaire Géolocalisé — Artisans de Proximité</h3>
+          <p class="project-desc">Projet lauréat du 1er Prix au Hackathon Merradis Burkina × UTM 2026. Plateforme cartographique reliant citoyens et artisans locaux certifiés.</p>
+          <div class="project-footer-btns">
+            <button class="btn-neo btn-black btn-sm" onclick="openProjectModal('meradis')">Détails & Équipe</button>
+            <button class="btn-neo btn-white btn-sm" onclick="openProjectModal('meradis')">Fiche Lauréat</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section id="contact" class="section-container scroll-reveal">
+      <div class="contact-banner shadow-pop-lg">
+        <span class="status-pill status-pill-light mb-3">Collaborons ensemble</span>
+        <h2 class="contact-banner-title">Prêt à donner vie à vos projets ?</h2>
+        <p class="contact-banner-sub">
+          Que ce soit pour un stage ingénieur, une opportunité professionnelle ou un projet innovant, échangeons sur vos besoins.
+        </p>
+        <div class="contact-btn-wrapper">
+          <a href="https://www.linkedin.com/in/serge-landry-waongo-2602a9360" target="_blank" rel="noopener" class="btn-neo btn-sun shadow-pop">Profil LinkedIn</a>
+          <a href="https://github.com/Sergiwao" target="_blank" rel="noopener" class="btn-neo btn-white shadow-pop">Dépôts GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- MODALE DE PROJET INTERACTIVE (NAVIGATION NON-LINÉAIRE) -->
+  <div class="modal-backdrop" id="projectModalBackdrop" aria-hidden="true">
+    <div class="modal-dialog neo-card shadow-pop-lg" role="dialog" aria-modal="true">
+      <div class="modal-header">
+        <div class="modal-title-area">
+          <span class="modal-badge tag-pill" id="modalBadge">Badge</span>
+          <h2 class="modal-title" id="modalTitle">Titre du Projet</h2>
+        </div>
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Fermer la boîte de dialogue">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Visual Gallery -->
+        <div class="modal-gallery-pane">
+          <div class="modal-main-image-wrapper">
+            <img id="modalMainImage" src="" alt="Capture du projet" class="modal-main-img">
+          </div>
+          <div class="modal-thumbs-carousel" id="modalThumbsList">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Details Pane -->
+        <div class="modal-info-pane">
+          <div class="modal-block">
+            <h4 class="modal-block-title">Présentation & Objectifs</h4>
+            <p class="modal-block-text" id="modalDesc"></p>
+          </div>
+
+          <div class="modal-block">
+            <h4 class="modal-block-title">Fonctionnalités Clés</h4>
+            <ul class="modal-features-list" id="modalFeatures"></ul>
+          </div>
+
+          <div class="modal-block">
+            <h4 class="modal-block-title">Rôle & Réalisations</h4>
+            <p class="modal-block-text" id="modalRole"></p>
+          </div>
+
+          <div class="modal-block">
+            <h4 class="modal-block-title">Technologies Utilisées</h4>
+            <div class="modal-tech-tags" id="modalTechTags"></div>
+          </div>
+
+          <div class="modal-action-row" id="modalActions">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX VIEWER POUR PHOTOS PARCOURS AVEC FLECHES PREV / NEXT -->
+  <div class="photo-lightbox-backdrop" id="photoLightbox" aria-hidden="true" onclick="closePhotoViewer()">
+    <button class="lightbox-arrow lightbox-arrow-left" id="lightboxPrevBtn" aria-label="Photo précédente" onclick="event.stopPropagation(); prevGalleryPhoto();">←</button>
+    <div class="photo-lightbox-card neo-card shadow-pop-lg" onclick="event.stopPropagation()">
+      <button class="lightbox-close-btn" onclick="closePhotoViewer()" aria-label="Fermer la photo">✕</button>
+      <img id="lightboxImage" src="" alt="Vue détaillée" class="lightbox-img">
+      <div class="lightbox-footer">
+        <p id="lightboxCaption" class="lightbox-caption"></p>
+        <span id="lightboxCounter" class="lightbox-counter"></span>
+      </div>
+    </div>
+    <button class="lightbox-arrow lightbox-arrow-right" id="lightboxNextBtn" aria-label="Photo suivante" onclick="event.stopPropagation(); nextGalleryPhoto();">→</button>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer-container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <span class="logo-badge">SW</span>
+        <span>Serge Landry WAONGO</span>
+      </div>
+      <p class="footer-copy">© <span id="year">2026</span> — Étudiant Ingénieur Logiciel & Développeur Full-Stack</p>
+      <div class="footer-links">
+        <a href="https://github.com/Sergiwao" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/serge-landry-waongo-2602a9360" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

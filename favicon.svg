@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <!-- Hard neo-brutalist shadow -->
+    <filter id="neoShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="3" stdDeviation="0" flood-color="#1A1A1A" flood-opacity="1" />
+    </filter>
+  </defs>
+  
+  <!-- Outer Rounded Square with Hard Shadow -->
+  <rect x="6" y="6" width="50" height="50" rx="14" fill="#FF5E36" stroke="#1A1A1A" stroke-width="3" filter="url(#neoShadow)" />
+  
+  <!-- Accent Inner Pill / Shape -->
+  <circle cx="44" cy="18" r="4.5" fill="#FEF08A" stroke="#1A1A1A" stroke-width="1.5" />
+  
+  <!-- Monogram SW -->
+  <text x="28" y="38" 
+        font-family="'Archivo', 'Arial Black', sans-serif" 
+        font-size="22" 
+        font-weight="900" 
+        fill="#FFFFFF" 
+        stroke="#1A1A1A" 
+        stroke-width="1"
+        text-anchor="middle" 
+        dominant-baseline="central"
+        letter-spacing="-1.5">SW</text>
+</svg>
